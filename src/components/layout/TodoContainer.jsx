@@ -6,8 +6,8 @@ const TodoContainer = ({ children, title = 'Todo Management' }) => {
       <div className="max-w-4xl mx-auto">
         <div className="bg-white rounded-xl shadow-lg overflow-hidden">
           <div className="px-4 py-5 sm:p-6">
-            <h1 className="text-2xl font-bold text-gray-900 mb-6">
-              {title}
+            <h1 className="text-2xl font-bold text-gray-900 mb-6 flex items-center gap-2">
+              <span>📋</span> {title}
             </h1>
             {children}
           </div>
