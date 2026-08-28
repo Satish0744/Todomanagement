@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import useTodos from './hooks/useTodos';
 import useToast from './hooks/useToast';
-import TodoContainer from './components/Layout/TodoContainer'; // This path is correct
+import TodoContainer from './components/Layout/TodoContainer';
 import TodoList from './components/Todo/TodoList';
 import TodoModal from './components/Todo/TodoModal';
 import TodoSearch from './components/Todo/TodoSearch';
